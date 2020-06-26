@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+@import "reset.css";
+
+body {
+  background-color: white;
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+.header {
+  width: 80%;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.right-align {
+  text-align: right;
+}
+
+.left-align {
+  text-align: left;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.header__user-name {
+  font-size: 45px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.header__user-descripion {
+  font-size: 20px;
+}
+
+.header__icon-list {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.header__icon {
+  margin-right: 15px;
+  font-size: 45px;
+}
+
+.header__user-email {
+  margin-bottom: 10px;
+}
+
+.main__subtitle {
+  font-size: 25px;
+}
+
+.main__subtitle-content-seperator {
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 2px dashed;
+}
+
+.main__subcontent {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+img {
+  border-radius: 50%;
+  width: 70%;
+}
+
+.main__user-content-wapper {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
