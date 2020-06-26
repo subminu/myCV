@@ -24,10 +24,6 @@ body {
   text-align: right;
 }
 
-.left-align {
-  text-align: left;
-}
-
 .center-align {
   text-align: center;
 }
@@ -44,16 +40,29 @@ body {
 
 .header__icon-list {
   display: flex;
+  justify-content: flex-end;
   margin-bottom: 5px;
 }
 
 .header__icon {
-  margin-right: 15px;
+  margin-left: 15px;
   font-size: 45px;
+}
+
+.hedaer .header__icon > a:hover {
+  color: grey;
+}
+
+.header__icon > a:visited {
+  color: red;
 }
 
 .header__user-email {
   margin-bottom: 10px;
+}
+
+.header__user-website > a:visited {
+  color: black;
 }
 
 .main__subtitle {
