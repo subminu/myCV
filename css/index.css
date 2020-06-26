@@ -49,7 +49,7 @@ body {
   font-size: 45px;
 }
 
-.hedaer .header__icon > a:hover {
+.header__icon > a:hover {
   color: grey;
 }
 
